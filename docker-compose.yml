@@ -1,6 +1,10 @@
 version: "3.8"
 
 services:
+   web: 
+   images: "rathourd2/notes-app:latest
+   port: 
+      - "8000:8000"
   nginx:
     build: ./nginx
     image: nginx
